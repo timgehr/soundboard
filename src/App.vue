@@ -1,72 +1,92 @@
 <template>
   <div id="app">
+    
+    <audio class="audio"  id="5" src="./assets/DEFENSE11.mp3" preload="auto"></audio>
+    <button class="chant" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('5').currentTime = 0; document.getElementById('5').play();">DEFENSE CHANT 1</button>
+    
+    <audio class="audio"  id="6" src="./assets/DEFENSE21.mp3" preload="auto"></audio>
+    <button class="chant" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('6').currentTime = 0; document.getElementById('6').play();">DEFENSE CHANT 2</button>
+    
+    <audio class="audio"  id="11" src="./assets/hwg11.mp3" preload="auto"></audio>
+    <button class="chant" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('11').currentTime = 0; document.getElementById('11').play();">HERE WE GO CHANT</button>
+    
+    <audio class="audio"  id="12" src="./assets/lght11.mp3" preload="auto"></audio>
+    <button class="chant" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('12').currentTime = 0; document.getElementById('12').play();">LETS GO CHANT 1</button>
+    
+    <audio class="audio"  id="13" src="./assets/lght21.mp3" preload="auto"></audio>
+    <button class="chant" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('13').currentTime = 0; document.getElementById('13').play();">LETS GO CHANT 2</button>
+    
+    <audio class="audio" id="14" src="./assets/lght31.mp3" preload="auto"></audio>
+    <button class="chant" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('14').currentTime = 0; document.getElementById('14').play();">LETS GO CHANT 3</button>
+    
+    <audio class="audio"  id="8" src="./assets/EXCELLENT.mp3" preload="auto"></audio>
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('8').currentTime = 0; document.getElementById('8').play();">EXCELLENT</button>
     <audio class="audio"  id="1" src="./assets/SWORD.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('1').currentTime = 0; document.getElementById('1').play();">SWORD</button>
     
     <audio class="audio"  id="2" src="./assets/bell.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('2').currentTime = 0; document.getElementById('2').play();">BELL</button>
     
     <audio class="audio"  id="3" src="./assets/blocked.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('3').currentTime = 0; document.getElementById('3').play();">BLOCKED</button>
     
     <audio class="audio"  id="4" src="./assets/COIN.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('4').currentTime = 0; document.getElementById('4').play();">COIN</button>
     
-    <audio class="audio"  id="5" src="./assets/DEFENSE1.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('5').currentTime = 0; document.getElementById('5').play();">DEFENSE CHANT 1</button>
-    
-    <audio class="audio"  id="6" src="./assets/DEFENSE2.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('6').currentTime = 0; document.getElementById('6').play();">DEFENSE CHANT 2</button>
-    
-    <audio class="audio"  id="8" src="./assets/EXCELLENT.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('8').currentTime = 0; document.getElementById('8').play();">EXCELLENT</button>
-    
-    <audio class="audio"  id="9" src="./assets/goingbad.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('9').play();">GOING BAD</button>
-    
-    <audio class="audio"  id="7" src="./assets/drip.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('7').play();">RIC FLAIR DRIP</button>
-    
     <audio class="audio"  id="10" src="./assets/homerun.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('10').currentTime = 0; document.getElementById('10').play();">HOMERUN</button>
-    
-    <audio class="audio"  id="11" src="./assets/hwg1.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('11').currentTime = 0; document.getElementById('11').play();">HERE WE GO CHANT</button>
-    
-    <audio class="audio"  id="12" src="./assets/lght1.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('12').currentTime = 0; document.getElementById('12').play();">LETS GO CHANT 1</button>
-    
-    <audio class="audio"  id="13" src="./assets/lght2.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('13').currentTime = 0; document.getElementById('13').play();">LETS GO CHANT 2</button>
-    
-    <audio class="audio" id="14" src="./assets/lght3.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
-  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('14').currentTime = 0; document.getElementById('14').play();">LETS GO CHANT 3</button>
 
   <audio class="audio" id="15" src="./assets/sixerschime.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('15').currentTime = 0; document.getElementById('15').play();">CHIME</button>
 
   <audio class="audio" id="16" src="./assets/sicko.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('16').currentTime = 0; document.getElementById('16').play();">SICKO MODE HIT</button>
 
-  <audio class="audio" id="17" src="./assets/triple.mp3" preload="auto"></audio>
-    <button onclick=" var sounds = document.getElementsByTagName('audio');
+  <audio class="audio" id="17" src="./assets/triple1.mp3" preload="auto"></audio>
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('17').currentTime = 0; document.getElementById('17').play();">OH BABY A TRIPLE</button>
+
+  <audio class="audio" id="20" src="./assets/wrong.mp3" preload="auto"></audio>
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('20').currentTime = 0; document.getElementById('20').play();">THE PRICE IS WRONG</button>
+
+  <audio class="audio" id="21" src="./assets/powerup.mp3" preload="auto"></audio>
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('21').currentTime = 0; document.getElementById('21').play();">POWER UP</button>
+
+  <audio class="audio" id="22" src="./assets/shmashfinal.mp3" preload="auto"></audio>
+    <button class="sfx" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('22').currentTime = 0; document.getElementById('22').play();">FINAL SMASH</button>
+    
+    <audio class="audio"  id="9" src="./assets/goingbad.mp3" preload="auto"></audio>
+    <button class="song" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('9').play();">GOING BAD</button>
+    
+    <audio class="audio"  id="7" src="./assets/drip.mp3" preload="auto"></audio>
+    <button class="song" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('7').play();">RIC FLAIR DRIP</button>
+    
+    <audio class="audio"  id="18" src="./assets/motto.mp3" preload="auto"></audio>
+    <button class="song" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('18').play();">THE MOTTO</button>
+    
+    <audio class="audio"  id="19" src="./assets/liveonstage.mp3" preload="auto"></audio>
+    <button class="song" onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('19').play();">LIVE ON STAGE</button>
   </div>
 </template>
 
@@ -97,5 +117,20 @@ button{
 
 button:focus{
   outline: none;
+}
+
+.song{
+  background: rgb(124, 0, 0);
+  color:white;
+}
+
+.sfx{
+  background: rgb(0, 121, 20);
+  color:white;
+}
+
+.chant{
+  background: rgb(0, 67, 121);
+  color:white;
 }
 </style>
