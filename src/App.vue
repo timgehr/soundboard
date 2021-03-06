@@ -55,6 +55,18 @@
     <audio class="audio" id="14" src="./assets/lght3.mp3" preload="auto"></audio>
     <button onclick=" var sounds = document.getElementsByTagName('audio');
   for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('14').currentTime = 0; document.getElementById('14').play();">LETS GO CHANT 3</button>
+
+  <audio class="audio" id="15" src="./assets/sixerschime.mp3" preload="auto"></audio>
+    <button onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('15').currentTime = 0; document.getElementById('15').play();">CHIME</button>
+
+  <audio class="audio" id="16" src="./assets/sicko.mp3" preload="auto"></audio>
+    <button onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('16').currentTime = 0; document.getElementById('16').play();">SICKO MODE HIT</button>
+
+  <audio class="audio" id="17" src="./assets/triple.mp3" preload="auto"></audio>
+    <button onclick=" var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause(); document.getElementById('17').currentTime = 0; document.getElementById('17').play();">OH BABY A TRIPLE</button>
   </div>
 </template>
 
